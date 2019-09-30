@@ -2,6 +2,8 @@
 // Web: https://www.totaljs.com
 // License: MIT
 
+// Requirements: wkhtmltopdf
+
 // Usage in routes:
 // ROUTE('GET /api/print/    * --> @printpdf', [10000]);
 
