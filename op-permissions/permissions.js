@@ -74,7 +74,7 @@ NEWOPERATION('cl_users_read', function($) {
 				var group = meta.groups.findItem('id', id[i].substring(1));
 				if (group) {
 					tmp = {};
-					tmp.id = '@' + group.id;
+					tmp.id = '#' + group.id;
 					tmp.name = group.name;
 					output.push(tmp);
 				}
